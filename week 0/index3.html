@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studoro</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="Fő menü">
+   <!--     NEM KELL DIV, mert a nav,main,footer magában már egy konténer <div class="navbar"> persze attól lehetnek beleágyazva divek -->
+                <ul>
+                    <li>
+                        <a href="/hogyanmukodik">hogyan működik?</a>
+                    </li>
+                    <li>
+                        <a href="/funkciok">Funkciók</a>
+                    </li>
+                    <li>
+                        <a href="/arak">Árak</a>
+                    </li>
+                    <li>
+                        <a href="/erettsegifelkeszules">Érettségi felkészülés</a>
+                    </li>
+                    <li>
+                        <a href="/magantanartkeresel">Magántanárt keresel?</a>
+                    </li>
+                    <li>
+                        <a href="/kapcsolat">Kapcsolat</a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Tudás, ami veled marad</h1>
+            <p>Játékos leckék, sorozatok és jutalmak! A Studoróval a tanulás nem nyűg, hanem napi szokás. Az 5–12. osztályos tananyag egyetlen appban.</p>
+            <button type="button">Kezdd el ingyen!</button> <!-- 3 type button van: submit, button, reset = submit (űrlap,mentés,regi), 
+            button (bármit, amit a JS rátesz), reset (törli aze gész űrlapot, UX-es antipattern, ilyet SOHA nem használunk!) -->
+            <button type="button">Hogyan működik?</button>
+            <ul>
+                <li>14 nap ingyen</li>
+                <li>bármikor lemondható</li>
+                <li>akár 5 profil egy fiókban</li>
+        </section>
+        <section id="features">
+            <h2>Három lépés, és indul a tanulás</h2>
+        </section>
+        <section id="form-test">
+<form>
+  <label for="pw">Jelszó</label>
+  <input id="pw" type="password">
+  <button>Jelszó mutatása</button>   <!-- ⚠️ ez elküldi az űrlapot! fontos, hogy a type-ot mindig írjuk oda! -->
+  <button type="submit">Belépés</button>
+</form>
+    </main>
+</body>
+</html>
