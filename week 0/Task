@@ -1,1 +1,20 @@
-week 0 - HTML ismétlése
+# W01 · HTML Semantics
+
+Beginner · A felület szerkezete és jelentése · ~6 óra
+
+## Szemantikus landing oldal
+
+Építs egy egyoldalas landing page-et egy kitalált termékhez kizárólag HTML-lel, CSS nélkül. A cél a helyes szerkezet, nem a kinézet.
+
+### Lépések
+
+1. Találj ki egy egyszerű terméket (pl. növénygondozó app).
+2. Építsd fel: `header` + `nav`, hero, 3 feature `section`, FAQ, `footer`.
+3. Legyen egy `h1`, a többi címsor logikus sorrendben.
+4. Tegyél be legalább 2 képet helyes alt szöveggel.
+5. Futtasd le a W3C validátoron, és javítsd a hibákat.
+
+### Leadandó
+
+vizsga.html
+
