@@ -1,0 +1,29 @@
+# W02 · CSS Box Model & Typography
+
+Beginner · Dobozok, térközök és betűk · ~6 óra
+
+## Landing oldal tipográfiával
+
+Stílusozd meg az 1. heti landing oldaladat egy külön CSS fájllal. Legyen benne type scale, következetes spacing és olvasható szövegszélesség.
+
+### Lépések
+
+1. Hozz létre `styles.css`-t, és kösd be a HTML-be.
+2. Állíts be `box-sizing: border-box`-ot mindenre.
+3. Definiálj egy type scale-t CSS változókkal (pl. `--step-0`…`--step-4`).
+4. Használj egy 4 vagy 8 pontos spacing rendszert.
+5. Készíts képernyőképet, és tedd mellé, hogyan nézne ki ugyanez Figmában.
+
+### Leadandó
+
+index.html, styles.css, screenshot.png
+
+### Önellenőrzés
+
+- [ ] Külön CSS fájl
+- [ ] rem alapú betűméretek
+- [ ] Type scale változókkal
+- [ ] Következetes spacing
+- [ ] Max. ~65 karakteres szövegszélesség
+
+Ha kész vagy, küldd be a feladatot az appban, és másold be nekem az üzenetet a chatbe.
