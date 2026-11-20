@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Főmenü" class="navbar">
+            <img src="STUDORO.svg" alt="Studoro" class="logo">
+            <ul>
+                <li><a href="#hogyan">Hogyan működik?</a></li>
+                <li><a href="#funkciok">Funkciók</a></li>
+                <li><a href="#arak">Árak</a></li>
+                <li><a href="#erettsegi">Érettségi felkészülés</a></li>
+                <li><a href="#magantanar">Magántanárt keresel?</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+        <a class="button-primary" href="#kapcsolat">Kezdd el ingyen!</a>
+    </header>
+    <main> <!-- class, ha stílus kell, ID ha hivatkozunk rá! Lehet mindkettőt is! -->
+        <section class="hero">
+            <h1>Tudás, ami veled marad!</h1>
+            <p>Játékos leckék, sorozatok és jutalmak!
+                A Studoróval a tanulás nem nyűg, hanem napi szokás. Az 5–12. osztályos tananyag egyetlen appban. </p>
+            <ul>
+                <li>14 nap ingyen</li>
+                <li>Bármikor lemondható</li>
+                <li>Akár 5 profil egy fiókban</li>
+            </ul>
+        </section>
+        <section class="features">
+            <h2>Három lépés, és indul a tanulás</h2>
+            <p>Se tankönyvhalom, se bonyolult beállítás. Csak nyisd meg az appot.</p>
+            <img src="divider.svg" alt="">
+            <article class="feature-card1">
+                <h3>Válassz évfolyamot és tantárgyat</h3>
+                <p>5–12. osztály, minden fő tantárgy a NAT kerettanterv szerint.</p>
+            </article>
+            <article class="feature-card2">
+                <h3>Tanulj játékos leckékkel</h3>
+                <p>Rövid, interaktív leckék, valamint kvízek, játékok és azonnali magyarázat, ha elakadsz.</p>
+            </article>
+            <article class="feature-card3">
+                <h3>Gyűjtsd a pontokat, kövesd a fejlődést</h3>
+                <p>Az XP, a szintek és a sorozatok fenntartják a lendületet. A statisztikák pedig megmutatják az
+                    eredményt.</p>
+            </article>
+        </section>
+        <section class="kapcsolat" id="kapcsolat">
+            <h2>Kapcsolatfelvétel</h2>
+            <form>
+                <label for="email">E-mail cím</label>
+                <input id="email" type="email" placeholder="pelda@gmail.com" autocomplete="email" required name="email">
+                <label for="name">Név</label>
+                <input id="name" type="text" placeholder="Lajos Mizse" autocomplete="name" required name="name">
+                <button type="submit" class="button-primary">Beküldés</button>
+            <!-- A submit csak azt küldi el, ami a form-on belül van! A "name" a szervernek szól, ezért azt oda kell írni!-->
+            <fieldset>
+                    <legend>Melyik évfolyamra jársz?</legend>
+                    <input id="ev1" type="radio" name="evfolyam" value="9">
+                    <label for="ev1">9.évfolyam</label>
+                    <!-- A "name" mindegyiknél ugyanaz, ezért lehet csak EGYET bejelölni! -->
+                    <input id="ev2" type="radio" name="evfolyam" value="10">
+                    <label for="ev2">10.évfolyam</label>
+                    <input id="ev3" type="radio" name="evfolyam" value="11">
+                    <label for="ev3">11.evfolyam</label>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
+
+<!-- SHIFT + ALT + F - rendezi az egész fájlt! -->
